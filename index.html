@@ -2,39 +2,60 @@
     <link rel = "stylesheet" type="text/css" href="index.css">
     <div class = "wrapper">
         <h1>EVERYPHONE</h1>
-        <nav>
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Board</a></li>
-                <li><a href="">Reference</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
     </div>
 </header>
 <body>
     <img src="apple.png" class="img-thumbnail" alt="Apple" width="150">
     <div class="outer" >
-        
         <div class="inner">
-            <input type="text" placeholder="type your model">
+            <input type="text" id="keyword" placeholder="type your model">
 
         </div>
         <div class="inner">
-            <button>search</button>
+            <button onclick="direction()">search</button>
         </div>
     </div>
-    <div class="info">
-        <img src="iphone.png" alt="phone" width="150">
+    <div class="outer2" >
+        <div class="inner">
+            <button onclick="location.href='AppleSpec.html'">Apple</button>
+
+        </div>
+        <div class="inner">
+            <button onclick="location.href='SamsungSpec.html'">Samsung</button>
+        </div>
     </div>
-    <h2>Apple iphone 12</h2>
-    <ul>
-        <li>Network : GSM / DCMA / HSPA / EVDO / LTE / 5G</li>
-        <li>Status : Available. Released 2020, October 23</li>
-        <li>Dimensions 146.7 x 71.5 x 7.4 mm (5.78 x 2.81 x 0.29 in)</li>
-        <li>Weight : 164 g (5.78 oz)</li>
-        <li>OS : iOS 14.1, upgradable to iOS 14.5</li>
-        <li>Chipset : Apple A14 Bionic</li>
-    </ul>
+    <div id="toast"></div>
+
+    <script>
+        function direction() {
+            let keyword = document.getElementById('keyword').value;
+            let lowerkeyword = keyword.toLowerCase();
+            let trimkeyword = lowerkeyword.replace(" ","");
+            let removeToast;
+
+            console.log(trimkeyword);
+            let link;
+
+            if(trimkeyword.indexOf("iphone") !== -1)
+            {
+                link = 'AppleSpec.html#' + trimkeyword;
+                location.href = link;
+            }
+            else if(trimkeyword.indexOf("galaxy") !== -1)
+            {
+                link = 'SamsungSpec.html#' + trimkeyword;
+                location.href = link;         
+            }
+            else 
+            {
+                const toast = document.getElementById("toast");
+
+                toast.classList.contains("reveal") ? 
+                (clearTimeout(removeToast), 
+                removeToast = setTimeout(function () { document.getElementById("toast").classList.remove("reveal")}, 1000)) :
+                removeToast = setTimeout(function () {document.getElementById("toast").classList.remove("reveal") }, 1000)
+                toast.classList.add("reveal"), toast.innerText = "기종을 찾을 수 없습니다."
+            }
+        }
+    </script>
 </body>
