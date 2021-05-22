@@ -9,3 +9,30 @@
 h1 {
     text-align: center;
 }
+
+body {
+    background-color: #676fe9;
+}
+
+.spec {
+    margin-right: 35px;
+    margin-left: 3px;
+}
+
+a {
+    color:black;
+}
+
+.flex-grow-1 {
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.btn {
+    margin: 2px 1px;
+    font-size: 18px;
+}
+
+span {
+    font-size: 20px;
+}

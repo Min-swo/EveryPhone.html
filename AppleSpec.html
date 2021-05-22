@@ -11,335 +11,405 @@
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
         <link rel="stylesheet" href="SpecStyle.css">
     </head>
 
     <body>
-        <i class="fa fa-home fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-home fa-2x" aria-hidden="true" onclick="location.href='index.html'"></i>
 
-        <h1>iPhone Specify</h1>
+        <h1><strong>iPhone Specify</strong></h1>
 
         <nav class="d-flex flex-row mb-3 justify-content-center">
             <a href="./AppleSpec.html"  class="p-2 bd-highlight">iPhone Specify</a>
             <a href="./SamsungSpec.html"  class="p-2 bd-highlight">Galaxy S Specify</a>
         </nav>
+        
+        <div calss="container">
+            <div class="flex-grow-1 bg-light w-80 p-2 mb-3">
+                <h4><strong>Favorites</strong></h4>
+                <div id="fav-list">
+					<div class="fav bg-light p-1 rounded-2 ps-2 d-flex align-items-center">
+					</div>
+                </div>
+            </div>
+        </div>
 
-        <ol class="list-group-numbered">
-            <li id="iphone6" class="list-group-item">
-                iPhone 6
-                <ul class="inside">
-                    <img src="./iPhone/iPhone6.png" width="300">
-                    <li>모델: A1586</li>
-                    <li>배터리: 내장형 Li-Ion 1810 mAh</li>
-                    <li>프로세서: A8 Cyclone gen 2 칩, M8 모션 보조 프로세서 내장</li>
-                    <li>디스플레이: Retina HD 디스플레이, 4.7인치 대각선, 1334 x 750 픽셀 해상도, 1400:1 명암비, 500cd/m2 최대 밝기</li>
-                    <li>카메라: 전면 120만 화소, 후면 800만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin</li>
-                    <li>RAM: 1GB</li>
-                    <li>저장 용량: 16, 32, 64, 128 GB</li>
-                    <li>운영체제: iOS 8.0 → 12.5</li>
-                </ul>
-            </li>
-            <li id="iphone6+" class="list-group-item">
-                iPhone 6 Plus
-                <ul class="inside">
-                    <img src="./iPhone/iPhone6+.png" width="300">
-                    <li>모델: A1524</li>
-                    <li>배터리: 내장형 Li-Ion 2915 mAh</li>
-                    <li>프로세서: A8 Cyclone gen 2 칩, M9 모션 보조 프로세서 내장</li>
-                    <li>디스플레이: Retina HD 디스플레이, 5.5인치 대각선, 1920 x 1080 픽셀 해상도, 1300:1 명암비, 500cd/m2 최대 밝기</li>
-                    <li>카메라: 전면 120만 화소, 후면 800만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin</li>
-                    <li>RAM: 1GB</li>
-                    <li>저장 용량: 16, 32, 64, 128 GB</li>
-                    <li>운영체제: iOS 8.0 → 12.5</li>
-                </ul>
-            </li>
-            <li id="iphone6s" class="list-group-item"> 
-                iPhone 6s
-                <ul class="inside">
-                    <img src="./iPhone/iPhone6s.png" width="300">
-                    <li>모델: A1688</li>
-                    <li>배터리: 내장형 Li-Ion 1715 mAh</li>
-                    <li>프로세서: A9 Twister 칩, M9 모션 보조 프로세서 내장</li>
-                    <li>디스플레이: Retina HD 디스플레이, 4.7인치 대각선, 1334 x 750 픽셀 해상도, 1400:1 명암비, 500cd/m2 최대 밝기</li>
-                    <li>카메라: 전면 500만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin</li>
-                    <li>RAM: 2GB</li>
-                    <li>저장 용량: 16, 32, 64, 128 GB</li>
-                    <li>운영체제:iOS 9.0 → 14</li>
-                </ul>
-            </li>
-            <li id="iphone6s+" class="list-group-item">
-                iPhone 6s Plus
-                <ul class="inside">
-                    <img src="./iPhone/iPhone6s.png" width="300">
-                    <li>모델: A1687</li>
-                    <li>배터리: 내장형 Li-Ion 2750 mAh</li>
-                    <li>프로세서: A9 Twister 칩, M9 모션 보조 프로세서 내장</li>
-                    <li>디스플레이: Retina HD 디스플레이, 5.5인치 대각선, 1920 x 1080 픽셀 해상도, 1300:1 명암비, 500cd/m2 최대 밝기</li>
-                    <li>카메라: 전면 500만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin</li>
-                    <li>RAM: 2GB</li>
-                    <li>저장 용량: 16, 32, 64, 128 GB</li>
-                    <li>운영체제:iOS 9.0 → 14</li>
-                </ul>
-            </li>
-            <li id="iphonese" class="list-group-item">
-                iPhone SE
-                <ul class="inside">
-                    <img src="./iPhone/iPhoneSE.png" width="300">
-                    <li>모델: A1723</li>
-                    <li>배터리: 내장형 Li-Ion 1624 mAh</li>
-                    <li>프로세서: A9 Twister 칩, M9 모션 보조 프로세서 내장</li>
-                    <li>디스플레이: Retina 디스플레이, 4인치 대각선, 1136 x 640 픽셀 해상도, 800:1 명암비, 500cd/m2 최대 밝기</li>
-                    <li>카메라: 전면 120만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin</li>
-                    <li>RAM: 2GB</li>
-                    <li>저장 용량: 16, 32, 64, 128 GB</li>
-                    <li>운영체제:iOS 9.3 → 14</li>
-                </ul>
-            </li>
-            <li id="iphone7" class="list-group-item">
-                iPhone 7
-                <ul class="inside">
-                    <img src="./iPhone/iPhone7.png" width="300">
-                    <li>모델: A1778</li>
-                    <li>배터리: 내장형 Li-Ion 1960 mAh</li>
-                    <li>프로세서: A10 Fusion 칩, M10 모션 보조 프로세서 내장</li>
-                    <li>디스플레이: Retina HD 디스플레이, 4.7인치 대각선, 1334 x 750 픽셀 해상도, 1400:1 명암비, 625cd/m2 최대 밝기</li>
-                    <li>카메라: 전면 700만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin</li>
-                    <li>RAM: 2GB</li>
-                    <li>저장 용량: 32, 128, 256 GB</li>
-                    <li>운영체제:iOS 10.0 → 14</li>
-                </ul>
-            </li>
-            <li id="iphone7+" class="list-group-item">
-                iPhone 7 Plus
-                <ul class="inside">
-                    <img src="./iPhone/iPhone7+.png" width="300">
-                    <li>모델: A1784</li>
-                    <li>배터리: 내장형 Li-Ion 2900 mAh</li>
-                    <li>프로세서: A10 Fusion 칩, M10 모션 보조 프로세서 내장</li>
-                    <li>디스플레이: Retina HD 디스플레이, 5.5인치 대각선, 1920 x 1080 픽셀 해상도, 1300:1 명암비, 625cd/m2 최대 밝기</li>
-                    <li>카메라: 전면 700만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin</li>
-                    <li>RAM: 3GB</li>
-                    <li>저장 용량: 32, 128, 256 GB</li>
-                    <li>운영체제:iOS 10.0 → 14</li>
-                </ul>
-            </li>
-            <li id="iphone8" class="list-group-item">
-                iPhone 8
-                <ul class="inside">
-                    <img src="./iPhone/iPhone8.png" width="300">
-                    <li>모델: A1905</li>
-                    <li>배터리: 내장형 Li-Ion 1821 mAh</li>
-                    <li>프로세서: A11 Bionic 칩, Neural Engine, M11 모션 보조 프로세서 내장</li>
-                    <li>디스플레이: Retina HD 디스플레이, 4.7인치 대각선, 1334 x 750 픽셀 해상도, 1400:1 명암비, 625cd/m2 최대 밝기</li>
-                    <li>카메라: 전면 700만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin</li>
-                    <li>RAM: 2GB</li>
-                    <li>저장 용량: 64, 128, 256 GB</li>
-                    <li>운영체제:iOS 11.0 → 14</li>
-                </ul>
-            </li>
-            <li id="iphone8+" class="list-group-item">
-                iPhone 8 Plus
-                <ul class="inside">
-                    <img src="./iPhone/iPhone8+.png" width="300">
-                    <li>모델: A1897</li>
-                    <li>배터리: 내장형 Li-Ion 2691 mAh</li>
-                    <li>프로세서: A11 Bionic 칩, Neural Engine, M11 모션 보조 프로세서 내장</li>
-                    <li>디스플레이: Retina HD 디스플레이, 5.5인치 대각선, 1920 x 1080 픽셀 해상도, 1300:1 명암비, 625cd/m2 최대 밝기</li>
-                    <li>카메라: 전면 700만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin</li>
-                    <li>RAM: 3GB</li>
-                    <li>저장 용량: 64, 128, 256 GB</li>
-                    <li>운영체제:iOS 11.0 → 14</li>
-                </ul>
-            </li>
-            <li id="iphonex" class="list-group-item">
-                iPhone X
-                <ul class="inside">
-                    <img src="./iPhone/iPhoneX.png" width="300">
-                    <li>모델: A1901</li>
-                    <li>배터리: 내장형 Li-Ion 2716 mAh</li>
-                    <li>프로세서: A11 Bionic 칩(64비트 아키텍처), Neural Engine, M11 모션 보조 프로세서 내장</li>
-                    <li>디스플레이: Sulier Retina HD 디스플레이, 5.8인치 대각선, 2436 x 1125 픽셀 해상도, 1,000,000:1 명암비, 625cd/m2 최대 밝기</li>
-                    <li>카메라: 전면 700만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin</li>
-                    <li>RAM: 3GB</li>
-                    <li>저장 용량: 64, 256 GB</li>
-                    <li>운영체제:iOS 11.1 → 14</li>
-                </ul>
-            </li>
-            <li id="iphonexr" class="list-group-item">
-                iPhone XR
-                <ul class="inside">
-                    <img src="./iPhone/iPhoneXR.png" width="300">
-                    <li>모델: A2105</li>
-                    <li>배터리: 내장형 Li-Ion 2942 mAh</li>
-                    <li>프로세서: A12 Bionic 칩, 2세대 Neural Engine</li>
-                    <li>디스플레이: Liquid Retina HD 디스플레이, 6.1인치 대각선, 1792 x 828 픽셀 해상도, 1400:1 명암비, 625cd/m2 최대 밝기</li>
-                    <li>카메라: 전면 700만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin</li>
-                    <li>RAM: 3GB</li>
-                    <li>저장 용량: 64, 128, 256 GB</li>
-                    <li>운영체제:iOS 12.0 → 14</li>
-                </ul>
-            </li>
-            <li id="iphonexs" class="list-group-item">
-                iPhone XS
-                <ul class="inside">
-                    <img src="./iPhone/iPhoneXS.png" width="300">
-                    <li>모델: A2097</li>
-                    <li>배터리: 내장형 Li-Ion 2658 mAh</li>
-                    <li>프로세서: A12 Bionic 칩, 2세대 Neural Engine</li>
-                    <li>디스플레이: Sulier Retina HD 디스플레이, 5.8인치 대각선, 2436 x 1125 픽셀 해상도, 1,000,000:1 명암비, 625cd/m2 최대 밝기</li>
-                    <li>카메라: 전면 700만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin</li>
-                    <li>RAM: 3GB</li>
-                    <li>저장 용량: 64, 256, 512 GB</li>
-                    <li>운영체제:iOS 12.0 → 14</li>
-                </ul>
-            </li>
-            <li id="iphonexsmax" class="list-group-item">
-                iPhone XS MAX
-                <ul class="inside">
-                    <img src="./iPhone/iPhoneXSMAX.png" width="300">
-                    <li>모델: A2101</li>
-                    <li>배터리: 내장형 Li-Ion 3174 mAh</li>
-                    <li>프로세서: A12 Bionic 칩, 2세대 Neural Engine</li>
-                    <li>디스플레이: Sulier Retina HD 디스플레이, 6.5인치 대각선, 2688 x 1242 픽셀 해상도, 1,000,000:1 명암비, 625cd/m2 최대 밝기</li>
-                    <li>카메라: 전면 700만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin</li>
-                    <li>RAM: 4GB</li>
-                    <li>저장 용량: 64, 256, 512 GB</li>
-                    <li>운영체제:iOS 12.0 → 14</li>
-                </ul>
-            </li>
-            <li id="iphone11" class="list-group-item">
-                iPhone 11
-                <ul class="inside">
-                    <img src="./iPhone/iPhone11.png" width="300">
-                    <li>모델: A2221</li>
-                    <li>배터리: 내장형 Li-Ion 3110 mAh</li>
-                    <li>프로세서: A13 Bionic 칩, 3세대 Neural Engine</li>
-                    <li>디스플레이: Liquid Retina HD 디스플레이, 6.1인치 대각선, 1792 x 828 픽셀 해상도, 1400:1 명암비, 625cd/m2 최대 밝기</li>
-                    <li>카메라: 전면 1,200만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin</li>
-                    <li>RAM: 4GB</li>
-                    <li>저장 용량: 64, 128, 256 GB</li>
-                    <li>운영체제:iOS 13.0 → 14</li>
-                </ul>
-            </li>
-            <li id="iphone11pro" class="list-group-item">
-                iPhone 11 Pro
-                <ul class="inside">
-                    <img src="./iPhone/iPhone11Pro.png" width="300">
-                    <li>모델: A2215</li>
-                    <li>배터리: 내장형 Li-Ion 3046 mAh</li>
-                    <li>프로세서: A13 Bionic 칩, 3세대 Neural Engine</li>
-                    <li>디스플레이: Sulier Retina XDR 디스플레이, 5.8인치 대각선, 2436 x 1125 픽셀 해상도, 2,000,000:1 명암비, 800cd/m2 최대 밝기, 1200cd/m2 HDR 최대밝기</li>
-                    <li>카메라: 전면 1,200만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alile Lightning 8-liin</li>
-                    <li>RAM: 4GB</li>
-                    <li>저장 용량: 64, 256, 512 GB</li>
-                    <li>운영체제:iOS 13.0 → 14</li>
-                </ul>
-            </li>
-            <li id="iphone11promax" class="list-group-item">
-                iPhone 11 Pro Max
-                <ul class="inside">
-                    <img src="./iPhone/iPhone11ProMAX.png" width="300">
-                    <li>모델: A2218</li>
-                    <li>배터리: 내장형 Li-Ion 3969 mAh</li>
-                    <li>프로세서: A13 Bionic 칩, 3세대 Neural Engine</li>
-                    <li>디스플레이: Sulier Retina XDR 디스플레이, 6.5인치 대각선, 2688 x 1242 픽셀 해상도, 2,000,000:1 명암비, 800cd/m2 최대 밝기, 1200cd/m2 HDR 최대밝기</li>
-                    <li>카메라: 전면 1,200만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin</li>
-                    <li>RAM: 4GB</li>
-                    <li>저장 용량: 64, 256, 512 GB</li>
-                    <li>운영체제:iOS 13.0 → 14</li>
-                </ul>
-            </li>
-            <li id="iphonese2" class="list-group-item">
-                iPhone SE2
-                <ul class="inside">
-                    <img src="./iPhone/iPhoneSE2.png" width="300">
-                    <li>모델: A2296</li>
-                    <li>배터리: 내장형 Li-Ion 1,821 mAh</li>
-                    <li>프로세서: A13 Bionic 칩, 3세대 Neural Engine</li>
-                    <li>디스플레이: Retina HD 디스플레이, 4.7인치 대각선, 1334 x 750 픽셀 해상도, 1400:1 명암비, 625cd/m2 최대 밝기</li>
-                    <li>카메라: 전면 700만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin</li>
-                    <li>RAM: 3GB</li>
-                    <li>저장 용량: 64, 128, 256 GB</li>
-                    <li>운영체제:iOS 13.4 → 14</li>
-                </ul>
-            </li>
-            <li id="iphone12mini" class="list-group-item">
-                iPhone 12 mini
-                <ul class="inside">
-                    <img src="./iPhone/iPhone12mini.png" width="300">
-                    <li>모델: A2399</li>
-                    <li>배터리: 내장형 Li-Ion 2,227 mAh</li>
-                    <li>프로세서: A14 Bionic 칩, 2세대 Neural Engine</li>
-                    <li>디스플레이: Sulier Retina XDR 디스플레이, 5.4인치 대각선, 2340 x 1080 픽셀 해상도, 2,000,000:1 명암비, 625cd/m2 최대 밝기, 1200cd/m2 HDR 최대밝기</li>
-                    <li>카메라: 전면 1,200만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin, 무선 MagSafe</li>
-                    <li>RAM: 4GB</li>
-                    <li>저장 용량: 64, 128, 256 GB</li>
-                    <li>운영체제:iOS 14.1</li>
-                </ul>
-            </li>
-            <li id="iphone12" class="list-group-item">
-                iPhone 12
-                <ul class="inside">
-                    <img src="./iPhone/iPhone12.png" width="300">
-                    <li>모델: A2403</li>
-                    <li>배터리: 내장형 Li-Ion 2,815 mAh</li>
-                    <li>프로세서: A14 Bionic 칩, 2세대 Neural Engine</li>
-                    <li>디스플레이: Sulier Retina XDR 디스플레이, 6.1인치 대각선, 2532 x 1170 픽셀 해상도, 2,000,000:1 명암비, 625cd/m2 최대 밝기, 1200cd/m2 HDR 최대밝기</li>
-                    <li>카메라: 전면 1,200만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin, 무선 MagSafe</li>
-                    <li>RAM: 4GB</li>
-                    <li>저장 용량: 64, 128, 256 GB</li>
-                    <li>운영체제:iOS 14.1</li>
-                </ul>
-            </li>
-            <li id="iphone12pro" class="list-group-item">
-                iPhone 12 Pro
-                <ul class="inside">
-                    <img src="./iPhone/iPhone12Pro.png" width="300">
-                    <li>모델: A2407</li>
-                    <li>배터리: 내장형 Li-Ion 2,815 mAh</li>
-                    <li>프로세서: A14 Bionic 칩, 2세대 Neural Engine</li>
-                    <li>디스플레이: Sulier Retina XDR 디스플레이, 6.1인치 대각선, 2532 x 1170 픽셀 해상도, 2,000,000:1 명암비, 800cd/m2 최대 밝기, 1200cd/m2 HDR 최대밝기</li>
-                    <li>카메라: 전면 1,200만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin, 무선 MagSafe</li>
-                    <li>RAM: 6GB</li>
-                    <li>저장 용량: 128, 256, 512 GB</li>
-                    <li>운영체제:iOS 14.1</li>
-                </ul>
-            </li>
-            <li id="iphone12promax" class="list-group-item">
-                iPhone 12 Pro MAX
-                <ul class="inside">
-                    <img src="./iPhone/iPhone12ProMAX.png" width="300">
-                    <li>모델: A2411</li>
-                    <li>배터리: 내장형 Li-Ion 3,687 mAh</li>
-                    <li>프로세서: A14 Bionic 칩, 2세대 Neural Engine</li>
-                    <li>디스플레이: Sulier Retina XDR 디스플레이, 6.7인치 대각선, 2778 x 1284 픽셀 해상도, 2,000,000:1 명암비, 800cd/m2 최대 밝기, 1200cd/m2 HDR 최대밝기</li>
-                    <li>카메라: 전면 1,200만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: Alilile Lightning 8-liin, 무선 MagSafe</li>
-                    <li>RAM: 6GB</li>
-                    <li>저장 용량: 128, 256, 512 GB</li>
-                    <li>운영체제:iOS 14.1</li>
-                </ul>
-            </li>
-        </ol>
+        <div class="spec">
+            <ol class="list-group-numbered">
+                
+                <li id="iphone6" class="list-group-item">
+                    iPhone 6
+                    <button type="button" id="iPhone6" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhone6.png" width="300">
+                        <li>모델: A1586</li>
+                        <li>배터리: 내장형 Li-Ion 1810 mAh</li>
+                        <li>프로세서: A8 Cyclone gen 2 칩, M8 모션 보조 프로세서 내장</li>
+                        <li>디스플레이: Retina HD 디스플레이, 4.7인치 대각선, 1334 x 750 픽셀 해상도, 1400:1 명암비, 500cd/m2 최대 밝기</li>
+                        <li>카메라: 전면 120만 화소, 후면 800만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin</li>
+                        <li>RAM: 1GB</li>
+                        <li>저장 용량: 16, 32, 64, 128 GB</li>
+                        <li>운영체제: iOS 8.0 → 12.5</li>
+                    </ul>
+                </li>
+                <li id="iphone6+" class="list-group-item">
+                    iPhone 6 Plus
+                    <button type="button" id="iPhone6+" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhone6+.png" width="300">
+                        <li>모델: A1524</li>
+                        <li>배터리: 내장형 Li-Ion 2915 mAh</li>
+                        <li>프로세서: A8 Cyclone gen 2 칩, M9 모션 보조 프로세서 내장</li>
+                        <li>디스플레이: Retina HD 디스플레이, 5.5인치 대각선, 1920 x 1080 픽셀 해상도, 1300:1 명암비, 500cd/m2 최대 밝기</li>
+                        <li>카메라: 전면 120만 화소, 후면 800만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin</li>
+                        <li>RAM: 1GB</li>
+                        <li>저장 용량: 16, 32, 64, 128 GB</li>
+                        <li>운영체제: iOS 8.0 → 12.5</li>
+                    </ul>
+                </li>
+                <li id="iphone6s" class="list-group-item"> 
+                    iPhone 6s
+                    <button type="button" id="iPhone6s" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhone6s.png" width="300">
+                        <li>모델: A1688</li>
+                        <li>배터리: 내장형 Li-Ion 1715 mAh</li>
+                        <li>프로세서: A9 Twister 칩, M9 모션 보조 프로세서 내장</li>
+                        <li>디스플레이: Retina HD 디스플레이, 4.7인치 대각선, 1334 x 750 픽셀 해상도, 1400:1 명암비, 500cd/m2 최대 밝기</li>
+                        <li>카메라: 전면 500만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin</li>
+                        <li>RAM: 2GB</li>
+                        <li>저장 용량: 16, 32, 64, 128 GB</li>
+                        <li>운영체제:iOS 9.0 → 14</li>
+                    </ul>
+                </li>
+                <li id="iphone6s+" class="list-group-item">
+                    iPhone 6s Plus
+                    <button type="button" id="iPhone6s+" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhone6s.png" width="300">
+                        <li>모델: A1687</li>
+                        <li>배터리: 내장형 Li-Ion 2750 mAh</li>
+                        <li>프로세서: A9 Twister 칩, M9 모션 보조 프로세서 내장</li>
+                        <li>디스플레이: Retina HD 디스플레이, 5.5인치 대각선, 1920 x 1080 픽셀 해상도, 1300:1 명암비, 500cd/m2 최대 밝기</li>
+                        <li>카메라: 전면 500만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin</li>
+                        <li>RAM: 2GB</li>
+                        <li>저장 용량: 16, 32, 64, 128 GB</li>
+                        <li>운영체제:iOS 9.0 → 14</li>
+                    </ul>
+                </li>
+                <li id="iphonese" class="list-group-item">
+                    iPhone SE
+                    <button type="button" id="iPhoneSE" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhoneSE.png" width="300">
+                        <li>모델: A1723</li>
+                        <li>배터리: 내장형 Li-Ion 1624 mAh</li>
+                        <li>프로세서: A9 Twister 칩, M9 모션 보조 프로세서 내장</li>
+                        <li>디스플레이: Retina 디스플레이, 4인치 대각선, 1136 x 640 픽셀 해상도, 800:1 명암비, 500cd/m2 최대 밝기</li>
+                        <li>카메라: 전면 120만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin</li>
+                        <li>RAM: 2GB</li>
+                        <li>저장 용량: 16, 32, 64, 128 GB</li>
+                        <li>운영체제:iOS 9.3 → 14</li>
+                    </ul>
+                </li>
+                <li id="iphone7" class="list-group-item">
+                    iPhone 7
+                    <button type="button" id="iPhone7" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhone7.png" width="300">
+                        <li>모델: A1778</li>
+                        <li>배터리: 내장형 Li-Ion 1960 mAh</li>
+                        <li>프로세서: A10 Fusion 칩, M10 모션 보조 프로세서 내장</li>
+                        <li>디스플레이: Retina HD 디스플레이, 4.7인치 대각선, 1334 x 750 픽셀 해상도, 1400:1 명암비, 625cd/m2 최대 밝기</li>
+                        <li>카메라: 전면 700만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin</li>
+                        <li>RAM: 2GB</li>
+                        <li>저장 용량: 32, 128, 256 GB</li>
+                        <li>운영체제:iOS 10.0 → 14</li>
+                    </ul>
+                </li>
+                <li id="iphone7+" class="list-group-item">
+                    iPhone 7 Plus
+                    <button type="button" id="iPhone7+" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhone7+.png" width="300">
+                        <li>모델: A1784</li>
+                        <li>배터리: 내장형 Li-Ion 2900 mAh</li>
+                        <li>프로세서: A10 Fusion 칩, M10 모션 보조 프로세서 내장</li>
+                        <li>디스플레이: Retina HD 디스플레이, 5.5인치 대각선, 1920 x 1080 픽셀 해상도, 1300:1 명암비, 625cd/m2 최대 밝기</li>
+                        <li>카메라: 전면 700만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin</li>
+                        <li>RAM: 3GB</li>
+                        <li>저장 용량: 32, 128, 256 GB</li>
+                        <li>운영체제:iOS 10.0 → 14</li>
+                    </ul>
+                </li>
+                <li id="iphone8" class="list-group-item">
+                    iPhone 8
+                    <button type="button" id="iPhone8" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhone8.png" width="300">
+                        <li>모델: A1905</li>
+                        <li>배터리: 내장형 Li-Ion 1821 mAh</li>
+                        <li>프로세서: A11 Bionic 칩, Neural Engine, M11 모션 보조 프로세서 내장</li>
+                        <li>디스플레이: Retina HD 디스플레이, 4.7인치 대각선, 1334 x 750 픽셀 해상도, 1400:1 명암비, 625cd/m2 최대 밝기</li>
+                        <li>카메라: 전면 700만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin</li>
+                        <li>RAM: 2GB</li>
+                        <li>저장 용량: 64, 128, 256 GB</li>
+                        <li>운영체제:iOS 11.0 → 14</li>
+                    </ul>
+                </li>
+                <li id="iphone8+" class="list-group-item">
+                    iPhone 8 Plus
+                    <button type="button" id="iPhone8+" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhone8+.png" width="300">
+                        <li>모델: A1897</li>
+                        <li>배터리: 내장형 Li-Ion 2691 mAh</li>
+                        <li>프로세서: A11 Bionic 칩, Neural Engine, M11 모션 보조 프로세서 내장</li>
+                        <li>디스플레이: Retina HD 디스플레이, 5.5인치 대각선, 1920 x 1080 픽셀 해상도, 1300:1 명암비, 625cd/m2 최대 밝기</li>
+                        <li>카메라: 전면 700만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin</li>
+                        <li>RAM: 3GB</li>
+                        <li>저장 용량: 64, 128, 256 GB</li>
+                        <li>운영체제:iOS 11.0 → 14</li>
+                    </ul>
+                </li>
+                <li id="iphonex" class="list-group-item">
+                    iPhone X
+                    <button type="button" id="iPhoneX" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhoneX.png" width="300">
+                        <li>모델: A1901</li>
+                        <li>배터리: 내장형 Li-Ion 2716 mAh</li>
+                        <li>프로세서: A11 Bionic 칩(64비트 아키텍처), Neural Engine, M11 모션 보조 프로세서 내장</li>
+                        <li>디스플레이: Sulier Retina HD 디스플레이, 5.8인치 대각선, 2436 x 1125 픽셀 해상도, 1,000,000:1 명암비, 625cd/m2 최대 밝기</li>
+                        <li>카메라: 전면 700만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin</li>
+                        <li>RAM: 3GB</li>
+                        <li>저장 용량: 64, 256 GB</li>
+                        <li>운영체제:iOS 11.1 → 14</li>
+                    </ul>
+                </li>
+                <li id="iphonexr" class="list-group-item">
+                    iPhone XR
+                    <button type="button" id="iPhoneXR" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhoneXR.png" width="300">
+                        <li>모델: A2105</li>
+                        <li>배터리: 내장형 Li-Ion 2942 mAh</li>
+                        <li>프로세서: A12 Bionic 칩, 2세대 Neural Engine</li>
+                        <li>디스플레이: Liquid Retina HD 디스플레이, 6.1인치 대각선, 1792 x 828 픽셀 해상도, 1400:1 명암비, 625cd/m2 최대 밝기</li>
+                        <li>카메라: 전면 700만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin</li>
+                        <li>RAM: 3GB</li>
+                        <li>저장 용량: 64, 128, 256 GB</li>
+                        <li>운영체제:iOS 12.0 → 14</li>
+                    </ul>
+                </li>
+                <li id="iphonexs" class="list-group-item">
+                    iPhone XS
+                    <button type="button" id="iPhoneXS" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhoneXS.png" width="300">
+                        <li>모델: A2097</li>
+                        <li>배터리: 내장형 Li-Ion 2658 mAh</li>
+                        <li>프로세서: A12 Bionic 칩, 2세대 Neural Engine</li>
+                        <li>디스플레이: Sulier Retina HD 디스플레이, 5.8인치 대각선, 2436 x 1125 픽셀 해상도, 1,000,000:1 명암비, 625cd/m2 최대 밝기</li>
+                        <li>카메라: 전면 700만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin</li>
+                        <li>RAM: 3GB</li>
+                        <li>저장 용량: 64, 256, 512 GB</li>
+                        <li>운영체제:iOS 12.0 → 14</li>
+                    </ul>
+                </li>
+                <li id="iphonexsmax" class="list-group-item">
+                    iPhone XS MAX
+                    <button type="button" id="iPhoneXSMAX" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhoneXSMAX.png" width="300">
+                        <li>모델: A2101</li>
+                        <li>배터리: 내장형 Li-Ion 3174 mAh</li>
+                        <li>프로세서: A12 Bionic 칩, 2세대 Neural Engine</li>
+                        <li>디스플레이: Sulier Retina HD 디스플레이, 6.5인치 대각선, 2688 x 1242 픽셀 해상도, 1,000,000:1 명암비, 625cd/m2 최대 밝기</li>
+                        <li>카메라: 전면 700만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin</li>
+                        <li>RAM: 4GB</li>
+                        <li>저장 용량: 64, 256, 512 GB</li>
+                        <li>운영체제:iOS 12.0 → 14</li>
+                    </ul>
+                </li>
+                <li id="iphone11" class="list-group-item">
+                    iPhone 11
+                    <button type="button" id="iPhone11" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhone11.png" width="300">
+                        <li>모델: A2221</li>
+                        <li>배터리: 내장형 Li-Ion 3110 mAh</li>
+                        <li>프로세서: A13 Bionic 칩, 3세대 Neural Engine</li>
+                        <li>디스플레이: Liquid Retina HD 디스플레이, 6.1인치 대각선, 1792 x 828 픽셀 해상도, 1400:1 명암비, 625cd/m2 최대 밝기</li>
+                        <li>카메라: 전면 1,200만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin</li>
+                        <li>RAM: 4GB</li>
+                        <li>저장 용량: 64, 128, 256 GB</li>
+                        <li>운영체제:iOS 13.0 → 14</li>
+                    </ul>
+                </li>
+                <li id="iphone11pro" class="list-group-item">
+                    iPhone 11 Pro
+                    <button type="button" id="iPhone11Pro" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhone11Pro.png" width="300">
+                        <li>모델: A2215</li>
+                        <li>배터리: 내장형 Li-Ion 3046 mAh</li>
+                        <li>프로세서: A13 Bionic 칩, 3세대 Neural Engine</li>
+                        <li>디스플레이: Sulier Retina XDR 디스플레이, 5.8인치 대각선, 2436 x 1125 픽셀 해상도, 2,000,000:1 명암비, 800cd/m2 최대 밝기, 1200cd/m2 HDR 최대밝기</li>
+                        <li>카메라: 전면 1,200만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alile Lightning 8-liin</li>
+                        <li>RAM: 4GB</li>
+                        <li>저장 용량: 64, 256, 512 GB</li>
+                        <li>운영체제:iOS 13.0 → 14</li>
+                    </ul>
+                </li>
+                <li id="iphone11promax" class="list-group-item">
+                    iPhone 11 Pro Max
+                    <button type="button" id="iPhone11ProMax" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhone11ProMAX.png" width="300">
+                        <li>모델: A2218</li>
+                        <li>배터리: 내장형 Li-Ion 3969 mAh</li>
+                        <li>프로세서: A13 Bionic 칩, 3세대 Neural Engine</li>
+                        <li>디스플레이: Sulier Retina XDR 디스플레이, 6.5인치 대각선, 2688 x 1242 픽셀 해상도, 2,000,000:1 명암비, 800cd/m2 최대 밝기, 1200cd/m2 HDR 최대밝기</li>
+                        <li>카메라: 전면 1,200만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin</li>
+                        <li>RAM: 4GB</li>
+                        <li>저장 용량: 64, 256, 512 GB</li>
+                        <li>운영체제:iOS 13.0 → 14</li>
+                    </ul>
+                </li>
+                <li id="iphonese2" class="list-group-item">
+                    iPhone SE2
+                    <button type="button" id="iPhoneSE2" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhoneSE2.png" width="300">
+                        <li>모델: A2296</li>
+                        <li>배터리: 내장형 Li-Ion 1,821 mAh</li>
+                        <li>프로세서: A13 Bionic 칩, 3세대 Neural Engine</li>
+                        <li>디스플레이: Retina HD 디스플레이, 4.7인치 대각선, 1334 x 750 픽셀 해상도, 1400:1 명암비, 625cd/m2 최대 밝기</li>
+                        <li>카메라: 전면 700만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin</li>
+                        <li>RAM: 3GB</li>
+                        <li>저장 용량: 64, 128, 256 GB</li>
+                        <li>운영체제:iOS 13.4 → 14</li>
+                    </ul>
+                </li>
+                <li id="iphone12mini" class="list-group-item">
+                    iPhone 12 mini
+                    <button type="button" id="iPhone12mini" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhone12mini.png" width="300">
+                        <li>모델: A2399</li>
+                        <li>배터리: 내장형 Li-Ion 2,227 mAh</li>
+                        <li>프로세서: A14 Bionic 칩, 2세대 Neural Engine</li>
+                        <li>디스플레이: Sulier Retina XDR 디스플레이, 5.4인치 대각선, 2340 x 1080 픽셀 해상도, 2,000,000:1 명암비, 625cd/m2 최대 밝기, 1200cd/m2 HDR 최대밝기</li>
+                        <li>카메라: 전면 1,200만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin, 무선 MagSafe</li>
+                        <li>RAM: 4GB</li>
+                        <li>저장 용량: 64, 128, 256 GB</li>
+                        <li>운영체제:iOS 14.1</li>
+                    </ul>
+                </li>
+                <li id="iphone12" class="list-group-item">
+                    iPhone 12
+                    <button type="button" id="iPhone12" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhone12.png" width="300">
+                        <li>모델: A2403</li>
+                        <li>배터리: 내장형 Li-Ion 2,815 mAh</li>
+                        <li>프로세서: A14 Bionic 칩, 2세대 Neural Engine</li>
+                        <li>디스플레이: Sulier Retina XDR 디스플레이, 6.1인치 대각선, 2532 x 1170 픽셀 해상도, 2,000,000:1 명암비, 625cd/m2 최대 밝기, 1200cd/m2 HDR 최대밝기</li>
+                        <li>카메라: 전면 1,200만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin, 무선 MagSafe</li>
+                        <li>RAM: 4GB</li>
+                        <li>저장 용량: 64, 128, 256 GB</li>
+                        <li>운영체제:iOS 14.1</li>
+                    </ul>
+                </li>
+                <li id="iphone12pro" class="list-group-item">
+                    iPhone 12 Pro
+                    <button type="button" id="iPhone12Pro" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhone12Pro.png" width="300">
+                        <li>모델: A2407</li>
+                        <li>배터리: 내장형 Li-Ion 2,815 mAh</li>
+                        <li>프로세서: A14 Bionic 칩, 2세대 Neural Engine</li>
+                        <li>디스플레이: Sulier Retina XDR 디스플레이, 6.1인치 대각선, 2532 x 1170 픽셀 해상도, 2,000,000:1 명암비, 800cd/m2 최대 밝기, 1200cd/m2 HDR 최대밝기</li>
+                        <li>카메라: 전면 1,200만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin, 무선 MagSafe</li>
+                        <li>RAM: 6GB</li>
+                        <li>저장 용량: 128, 256, 512 GB</li>
+                        <li>운영체제:iOS 14.1</li>
+                    </ul>
+                </li>
+                <li id="iphone12promax" class="list-group-item">
+                    iPhone 12 Pro MAX
+                    <button type="button" id="iPhone12ProMAX" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./iPhone/iPhone12ProMAX.png" width="300">
+                        <li>모델: A2411</li>
+                        <li>배터리: 내장형 Li-Ion 3,687 mAh</li>
+                        <li>프로세서: A14 Bionic 칩, 2세대 Neural Engine</li>
+                        <li>디스플레이: Sulier Retina XDR 디스플레이, 6.7인치 대각선, 2778 x 1284 픽셀 해상도, 2,000,000:1 명암비, 800cd/m2 최대 밝기, 1200cd/m2 HDR 최대밝기</li>
+                        <li>카메라: 전면 1,200만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: Alilile Lightning 8-liin, 무선 MagSafe</li>
+                        <li>RAM: 6GB</li>
+                        <li>저장 용량: 128, 256, 512 GB</li>
+                        <li>운영체제:iOS 14.1</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <script>
+            let favorites = [];
+
+            function addToList(favorite) {
+
+			    let div = document.createElement("div");
+			    div.className = "fav bg-light p-1 rounded-2 ps-2 d-flex align-items-center";
+			    let span = document.createElement("span");
+			    span.className = "me-auto";
+			    span.textContent = favorite;
+			    div.appendChild(span);
+
+                let buttonRemove = document.createElement("button");
+		        buttonRemove.className = "btn btn-sm btn-danger";
+		        buttonRemove.innerHTML = '<i class="bi bi-x"></i>';
+		        div.appendChild(buttonRemove);
+
+                buttonRemove.addEventListener("click", () => {
+				    div.remove();
+				    favorites = favorites.filter(f => f !== favorite);
+		        });
+
+                let list = document.querySelector("#fav-list");
+		        list.appendChild(div);
+		    }
+            let get_id = function(clicked_id) {
+                clicked_id;
+                if(!favorites.includes(clicked_id)) {
+                    favorites.push(clicked_id);
+                    addToList(clicked_id);
+                }
+            }
+        </script>
     </body>
 </html>

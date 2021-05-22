@@ -10,307 +10,379 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 
         <link rel="stylesheet" href="SpecStyle.css">
 
     </head>
 
     <body>
-        <i class="fa fa-home fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-home fa-2x" aria-hidden="true" onclick="location.href='index.html'"></i>
 
-        <h1>Galaxy S Specify</h1>
+        <h1><strong>Galaxy S Specify</strong></h1>
 
         <nav class="d-flex flex-row mb-3 justify-content-center">
-            <a href="./AppleSpec.html">iPhone Specify</a>
-            <a href="./SamsungSpec.html">Galaxy S Specify</a>
+            <a href="./AppleSpec.html" class="p-2 bd-highlight">iPhone Specify</a>
+            <a href="./SamsungSpec.html" class="p-2 bd-highlight">Galaxy S Specify</a>
         </nav>
 
-        <ol class="list-group-numbered">
-            <li id="galaxys5 " class="list-group-item">
-                Galaxy S5
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS5.png" width="300">
-                    <li>모델: SM-G900K</li>
-                    <li>배터리: 탈착형 Li-ion 2800 mAh</li>
-                    <li>프로세서: 퀄컴 스냅드래곤 801</li>
-                    <li>디스플레이: Super AMOLED 디스플레이, 5.1인치 대각선, 1920 x 1080 FHD 픽셀 해상도</li>
-                    <li>카메라: 전면 200만 화소, 후면 1,600만 화소</li>
-                    <li>충전 단자: USB 3.2 Gen1 micro Type-B</li>
-                    <li>RAM: 2GB</li>
-                    <li>저장 용량: 32 GB</li>
-                    <li>운영체제: 안드로이드 4.4 (KitKat) → 5.0 (Lollipop) → 6.0 (Marshmallow)</li>
-                </ul>
-            </li>
-            <li id="galaxys6" class="list-group-item">
-                Galaxy S6
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS6.png" width="300">
-                    <li>모델: SM-G920S</li>
-                    <li>배터리: 내장형 Li-Ion 2550 mAh</li>
-                    <li>프로세서: 삼성 엑시노스 7 Octa (7420)</li>
-                    <li>디스플레이: Super AMOLED 디스플레이, 5.1인치 대각선, 2560 x 1440 QuadHD 픽셀 해상도</li>
-                    <li>카메라: 전면 500만 화소, 후면 1,600만 화소</li>
-                    <li>충전 단자: USB 2.0 micro Type-B</li>
-                    <li>RAM: 3GB</li>
-                    <li>저장 용량: 32, 64 GB</li>
-                    <li>운영체제: 안드로이드 5.0 → 5.1 (Lollipop) → 6.0 (Marshmallow) → 7.0 (Nougat)</li>
-                </ul>
-            </li>
-            <li id="galaxys6edge" class="list-group-item">
-                Galaxy S6 Edge
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS6Edge.png" width="300">
-                    <li>모델: SM-G925S</li>
-                    <li>배터리: 내장형 Li-Ion 2600 mA</li>
-                    <li>프로세서: 삼성 엑시노스 7 Octa (7420)</li>
-                    <li>디스플레이: dual edge Super AMOLED 디스플레이, 5.1인치 대각선, 2560 x 1440 QuadHD 픽셀 해상도</li>
-                    <li>카메라: 전면 500만 화소, 후면 1,600만 화소</li>
-                    <li>충전 단자: USB 2.0 micro Type-B</li>
-                    <li>RAM: 3GB</li>
-                    <li>저장 용량: 32, 64, 128 GB</li>
-                    <li>운영체제: 안드로이드 5.0 → 5.1 (Lollipop) → 6.0 (Marshmallow) → 7.0 (Nougat)</li>
-                </ul>
-            </li>
-            <li id="galaxys7" class="list-group-item">
-                Galaxy S7
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS7.png" width="300">
-                    <li>모델: SM-G930S</li>
-                    <li>배터리: 내장형 Li-Ion 3000 mAh</li>
-                    <li>프로세서: 삼성 엑시노스 8 Octa (8890)</li>
-                    <li>디스플레이: Super AMOLED 디스플레이, 5.1인치 대각선, 2560 x 1440 QuadHD 픽셀 해상도</li>
-                    <li>카메라: 전면 500만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: USB 2.0 micro Type-B</li>
-                    <li>RAM: 4GB</li>
-                    <li>저장 용량: 32 GB</li>
-                    <li>운영체제: 안드로이드 6.0 (Marshmallow) → 7.0 (Nougat) → 8.0 (Oreo)</li>
-                </ul>
-            </li>
-            <li id="galaxys7edge" class="list-group-item">
-                Galaxy S7 Edge
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS7Edge.png" width="300">
-                    <li>모델: SM-G935S</li>
-                    <li>배터리: 내장형 Li-Ion 3600 mAh</li>
-                    <li>프로세서: 삼성 엑시노스 8 Octa (8890)</li>
-                    <li>디스플레이: dual edge Sulier AMOLED 디스플레이, 5.5인치 대각선, 2560 x 1440 QuadHD 픽셀 해상도</li>
-                    <li>카메라: 전면 500만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: USB 2.0 micro Tylie-B</li>
-                    <li>RAM: 4GB</li>
-                    <li>저장 용량: 64 GB</li>
-                    <li>운영체제: 안드로이드 6.0 (Marshmallow) → 7.0 (Nougat) → 8.0 (Oreo)</li>
-                </ul>
-            </li>
-            <li id="galaxys8" class="list-group-item">
-                Galaxy S8
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS8.png" width="300">
-                    <li>모델: SM-G950N</li>
-                    <li>배터리: 내장형 Li-Ion 3000 mAh</li>
-                    <li>프로세서: 삼성 엑시노스 9 Series (8895)</li>
-                    <li>디스플레이: dual edge Sulier AMOLED 디스플레이, 5.8인치 대각선, 2960 x 1440 QuadHD+ 픽셀 해상도</li>
-                    <li>카메라: 전면 500만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: USB 3.1 Gen1 Tylie-C</li>
-                    <li>RAM: 4GB</li>
-                    <li>저장 용량: 64 GB</li>
-                    <li>운영체제: 안드로이드 7.0 (Nougat) → 8.0 (Oreo) → 9 (liie)</li>
-                </ul>
-            </li>
-            <li id="galaxys8+" class="list-group-item">
-                Galaxy S8 Plus
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS8+.png" width="300">
-                    <li>모델: SM-G955N</li>
-                    <li>배터리: 내장형 Li-Ion 3500 mAh</li>
-                    <li>프로세서: 삼성 엑시노스 9 Series (8895)</li>
-                    <li>디스플레이: dual edge Sulier AMOLED 디스플레이, 6.2인치 대각선, 2960 x 1440 QuadHD+ 픽셀 해상도</li>
-                    <li>카메라: 전면 800만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: USB 3.1 Gen1 Tylie-C</li>
-                    <li>RAM: 4GB</li>
-                    <li>저장 용량: 64 GB</li>
-                    <li>운영체제: 안드로이드 7.0 (Nougat) → 8.0 (Oreo) → 9 (liie)</li>
-                </ul>
-            </li>
-            <li id="galaxys9" class="list-group-item">
-                Galaxy S9
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS9.png" width="300">
-                    <li>모델: SM-G960N</li>
-                    <li>배터리: 내장형 Li-Ion 3000 mAh</li>
-                    <li>프로세서: 삼성 엑시노스 9 Series (9810)</li>
-                    <li>디스플레이: dual edge Sulier AMOLED 디스플레이, 5.8인치 대각선, 2960 x 1440 QuadHD+ 픽셀 해상도</li>
-                    <li>카메라: 전면 800만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: USB 3.1 Gen1 Tylie-C</li>
-                    <li>RAM: 4GB</li>
-                    <li>저장 용량: 64 GB</li>
-                    <li>운영체제: 안드로이드 8.0 (Oreo) → 9 (liie) → 10</li>
-                </ul>
-            </li>
-            <li id="galaxys9+" class="list-group-item">
-                Galaxy S9 Plus
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS9+.png" width="300">
-                    <li>모델: SM-G965N</li>
-                    <li>배터리: 내장형 Li-Ion 3500 mAh</li>
-                    <li>프로세서: 삼성 엑시노스 9 Series (9810)</li>
-                    <li>디스플레이: dual edge Sulier AMOLED 디스플레이, 6.2인치 대각선, 2960 x 1440 QuadHD+ 픽셀 해상도</li>
-                    <li>카메라: 전면 800만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: USB 3.1 Gen1 Tylie-C</li>
-                    <li>RAM: 6GB</li>
-                    <li>저장 용량: 64, 256 GB</li>
-                    <li>운영체제: 안드로이드 8.0 (Oreo) → 9 (liie) → 10</li>
-                </ul>
-            </li>
-            <li id="galaxys10e" class="list-group-item">
-                Galaxy S10e
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS10e.png" width="300">
-                    <li>모델: SM-G970N</li>
-                    <li>배터리: 내장형 Li-Ion 3100 mAh</li>
-                    <li>프로세서: 삼성 엑시노스 9 Series (9820)</li>
-                    <li>디스플레이: Dynamic AMOLED 디스플레이, 5.8인치 대각선, 2280 x 1080 FHD+ 픽셀 해상도</li>
-                    <li>카메라: 전면 1000만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: USB 3.1 Gen1 Tylie-C</li>
-                    <li>RAM: 6GB</li>
-                    <li>저장 용량: 128 GB</li>
-                    <li>운영체제: 안드로이드 9 (liie) → 10 → 11</li>
-                </ul>
-            </li>
-            <li id="galaxys10" class="list-group-item">
-                Galaxy S10
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS10.png" width="300">
-                    <li>모델: SM-G973N</li>
-                    <li>배터리: 내장형 Li-Ion 3400 mAh</li>
-                    <li>프로세서: 삼성 엑시노스 9 Series (9820)</li>
-                    <li>디스플레이: Dynamic AMOLED 디스플레이, 6.1인치 대각선, 3040 x 1440 Quad HD+ 픽셀 해상도</li>
-                    <li>카메라: 전면 1000만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: USB 3.1 Gen1 Tylie-C</li>
-                    <li>RAM: 8GB</li>
-                    <li>저장 용량: 128 GB</li>
-                    <li>운영체제: 안드로이드 9 (liie) → 10 → 11</li>
-                </ul>
-            </li>
-            <li id="galaxys10+" class="list-group-item">
-                Galaxy S10 Plus
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS10+.png" width="300">
-                    <li>모델: SM-G975N</li>
-                    <li>배터리: 내장형 Li-Ion 4100 mAh</li>
-                    <li>프로세서: 삼성 엑시노스 9 Series (9820)</li>
-                    <li>디스플레이: Dynamic AMOLED 디스플레이, 6.4인치 대각선, 3040 x 1440 Quad HD+ 픽셀 해상도</li>
-                    <li>카메라: 전면 1000만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: USB 3.1 Gen1 Tylie-C</li>
-                    <li>RAM: 8GB</li>
-                    <li>저장 용량: 512 GB</li>
-                    <li>운영체제: 안드로이드 9 (liie) → 10 → 11</li>
-                </ul>
-            </li>
-            <li id="galaxys105g" class="list-group-item">
-                Galaxy S10 5G
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS105G.png" width="300">
-                    <li>모델: SM-G977N</li>
-                    <li>배터리: 내장형 Li-Ion 4500 mAh</li>
-                    <li>프로세서: 삼성 엑시노스 9 Series (9820)</li>
-                    <li>디스플레이: Dynamic AMOLED 디스플레이, 6.7인치 대각선, 3040 x 1440 Quad HD+ 픽셀 해상도</li>
-                    <li>카메라: 전면 1000만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: USB 3.1 Gen1 Tylie-C</li>
-                    <li>RAM: 8GB</li>
-                    <li>저장 용량: 256 GB</li>
-                    <li>운영체제: 안드로이드 9 (liie) → 10 → 11</li>
-                </ul>
-            </li>
-            <li id="galaxys20" class="list-group-item">
-                Galaxy S20
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS20.png" width="300">
-                    <li>모델: SM-G981N</li>
-                    <li>배터리: 내장형 Li-Ion 4000 mAh</li>
-                    <li>프로세서: 퀄컴 스냅드래곤 865</li>
-                    <li>디스플레이: Dynamic AMOLED 2X 디스플레이, 6.2인치 대각선, 3200 x 1440 Quad HD+ 픽셀 해상도</li>
-                    <li>카메라: 전면 1000만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: USB 3.2 Gen1 Type-C</li>
-                    <li>RAM: 12GB</li>
-                    <li>저장 용량: 128 GB</li>
-                    <li>운영체제: 안드로이드 10 → 11</li>
-                </ul>
-            </li>
-            <li id="galaxys20+" class="list-group-item">
-                Galaxy S20 Plus
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS20+.png" width="300">
-                    <li>모델: SM-G986N</li>
-                    <li>배터리: 내장형 Li-Ion 4500 mAh</li>
-                    <li>프로세서: 퀄컴 스냅드래곤 865</li>
-                    <li>디스플레이: Dynamic AMOLED 2X 디스플레이, 6.7인치 대각선, 3200 x 1440 Quad HD+ 픽셀 해상도</li>
-                    <li>카메라: 전면 1000만 화소, 후면 1,200만 화소</li>
-                    <li>충전 단자: USB 3.2 Gen1 Type-C</li>
-                    <li>RAM: 12GB</li>
-                    <li>저장 용량: 128 GB</li>
-                    <li>운영체제: 안드로이드 10 → 11</li>
-                </ul>
-            </li>
-            <li id="galaxys20ultra" class="list-group-item">
-                Galaxy S20 Ultra
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS20Ultra.png" width="300">
-                    <li>모델: SM-G988N</li>
-                    <li>배터리: 내장형 Li-Ion 5000 mAh</li>
-                    <li>프로세서: 퀄컴 스냅드래곤 865</li>
-                    <li>디스플레이: Dynamic AMOLED 2X 디스플레이, 6.9인치 대각선, 3200 x 1440 Quad HD+ 픽셀 해상도</li>
-                    <li>카메라: 전면 4000만 화소, 후면 1억 800만 화소</li>
-                    <li>충전 단자: USB 3.2 Gen1 Tylie-C</li>
-                    <li>RAM: 12GB</li>
-                    <li>저장 용량: 256 GB</li>
-                    <li>운영체제: 안드로이드 10 → 11</li>
-                </ul class="inside">
-            </li>
-            <li id="galaxys21" class="list-group-item">
-                Galaxy S21
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS21.png" width="300">
-                    <li>모델: SM-G991N</li>
-                    <li>배터리: 내장형 Li-Ion 4000 mAh</li>
-                    <li>프로세서: 삼성 엑시노스 10 Series (2100)</li>
-                    <li>디스플레이: Dynamic AMOLED 2X 디스플레이, 6.2인치 대각선, 2400 x 1080 FHD+ 픽셀 해상도</li>
-                    <li>카메라: 전면 1000만 화소, 후면 1200만 화소</li>
-                    <li>충전 단자: USB 3.2 Gen1 Tylie-C</li>
-                    <li>RAM: 8GB</li>
-                    <li>저장 용량: 256 GB</li>
-                    <li>운영체제: 안드로이드 11</li>
-                </ul>
-            </li>
-            <li id="galaxys21+" class="list-group-item">
-                Galaxy S21 Plus
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS21+.png" width="300">
-                    <li>모델: SM-G996N</li>
-                    <li>배터리: 내장형 Li-Ion 4800 mAh</li>
-                    <li>프로세서: 삼성 엑시노스 10 Series (2100)</li>
-                    <li>디스플레이: Dynamic AMOLED 2X 디스플레이, 6.7인치 대각선, 2400 x 1080 FHD+ 픽셀 해상도</li>
-                    <li>카메라: 전면 1000만 화소, 후면 1200만 화소</li>
-                    <li>충전 단자: USB 3.2 Gen1 Tylie-C</li>
-                    <li>RAM: 8GB</li>
-                    <li>저장 용량: 256 GB</li>
-                    <li>운영체제: 안드로이드 11</li>
-                </ul>
-            </li>
-            <li id="galaxys21ultra" class="list-group-item">
-                Galaxy S21 Ultra
-                <ul class="inside">
-                    <img src="./Galaxy/GalaxyS21Ultra.png" width="300">
-                    <li>모델: SM-G998N</li>
-                    <li>배터리: 내장형 Li-Ion 5000 mAh</li>
-                    <li>프로세서: 삼성 엑시노스 10 Series (2100)</li>
-                    <li>디스플레이: Dynamic AMOLED 2X 디스플레이, 6.7인치 대각선, 3200 x 1440 Quad HD+ 픽셀 해상도</li>
-                    <li>카메라: 전면 4000만 화소, 후면 1억 800만 화소</li>
-                    <li>충전 단자: USB 3.2 Gen1 Tylie-C</li>
-                    <li>RAM: 12GB</li>
-                    <li>저장 용량: 256 GB</li>
-                    <li>운영체제: 안드로이드 11</li>
-                </ul>
-            </li>
-        </ol>
+        <div calss="container">
+            <div class="flex-grow-1 bg-light w-80 p-2 mb-3">
+                <h4><strong>Favorites</strong></h4>
+                <div id="fav-list">
+					<div class="fav bg-light p-1 rounded-2 ps-2 d-flex align-items-center">
+					</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="spec">
+            <ol class="list-group-numbered">
+                <li id="galaxys5 " class="list-group-item">
+                    Galaxy S5
+                    <button type="button" id="GalaxyS5" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS5.png" width="300">
+                        <li>모델: SM-G900K</li>
+                        <li>배터리: 탈착형 Li-ion 2800 mAh</li>
+                        <li>프로세서: 퀄컴 스냅드래곤 801</li>
+                        <li>디스플레이: Super AMOLED 디스플레이, 5.1인치 대각선, 1920 x 1080 FHD 픽셀 해상도</li>
+                        <li>카메라: 전면 200만 화소, 후면 1,600만 화소</li>
+                        <li>충전 단자: USB 3.2 Gen1 micro Type-B</li>
+                        <li>RAM: 2GB</li>
+                        <li>저장 용량: 32 GB</li>
+                        <li>운영체제: 안드로이드 4.4 (KitKat) → 5.0 (Lollipop) → 6.0 (Marshmallow)</li>
+                    </ul>
+                </li>
+                <li id="galaxys6" class="list-group-item">
+                    Galaxy S6
+                    <button type="button" id="GalaxyS6" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS6.png" width="300">
+                        <li>모델: SM-G920S</li>
+                        <li>배터리: 내장형 Li-Ion 2550 mAh</li>
+                        <li>프로세서: 삼성 엑시노스 7 Octa (7420)</li>
+                        <li>디스플레이: Super AMOLED 디스플레이, 5.1인치 대각선, 2560 x 1440 QuadHD 픽셀 해상도</li>
+                        <li>카메라: 전면 500만 화소, 후면 1,600만 화소</li>
+                        <li>충전 단자: USB 2.0 micro Type-B</li>
+                        <li>RAM: 3GB</li>
+                        <li>저장 용량: 32, 64 GB</li>
+                        <li>운영체제: 안드로이드 5.0 → 5.1 (Lollipop) → 6.0 (Marshmallow) → 7.0 (Nougat)</li>
+                    </ul>
+                </li>
+                <li id="galaxys6edge" class="list-group-item">
+                    Galaxy S6 Edge
+                    <button type="button" id="GalaxyS6Edge" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS6Edge.png" width="300">
+                        <li>모델: SM-G925S</li>
+                        <li>배터리: 내장형 Li-Ion 2600 mA</li>
+                        <li>프로세서: 삼성 엑시노스 7 Octa (7420)</li>
+                        <li>디스플레이: dual edge Super AMOLED 디스플레이, 5.1인치 대각선, 2560 x 1440 QuadHD 픽셀 해상도</li>
+                        <li>카메라: 전면 500만 화소, 후면 1,600만 화소</li>
+                        <li>충전 단자: USB 2.0 micro Type-B</li>
+                        <li>RAM: 3GB</li>
+                        <li>저장 용량: 32, 64, 128 GB</li>
+                        <li>운영체제: 안드로이드 5.0 → 5.1 (Lollipop) → 6.0 (Marshmallow) → 7.0 (Nougat)</li>
+                    </ul>
+                </li>
+                <li id="galaxys7" class="list-group-item">
+                    Galaxy S7
+                    <button type="button" id="GalaxyS7" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS7.png" width="300">
+                        <li>모델: SM-G930S</li>
+                        <li>배터리: 내장형 Li-Ion 3000 mAh</li>
+                        <li>프로세서: 삼성 엑시노스 8 Octa (8890)</li>
+                        <li>디스플레이: Super AMOLED 디스플레이, 5.1인치 대각선, 2560 x 1440 QuadHD 픽셀 해상도</li>
+                        <li>카메라: 전면 500만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: USB 2.0 micro Type-B</li>
+                        <li>RAM: 4GB</li>
+                        <li>저장 용량: 32 GB</li>
+                        <li>운영체제: 안드로이드 6.0 (Marshmallow) → 7.0 (Nougat) → 8.0 (Oreo)</li>
+                    </ul>
+                </li>
+                <li id="galaxys7edge" class="list-group-item">
+                    Galaxy S7 Edge
+                    <button type="button" id="GalaxyS7Edge" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS7Edge.png" width="300">
+                        <li>모델: SM-G935S</li>
+                        <li>배터리: 내장형 Li-Ion 3600 mAh</li>
+                        <li>프로세서: 삼성 엑시노스 8 Octa (8890)</li>
+                        <li>디스플레이: dual edge Sulier AMOLED 디스플레이, 5.5인치 대각선, 2560 x 1440 QuadHD 픽셀 해상도</li>
+                        <li>카메라: 전면 500만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: USB 2.0 micro Tylie-B</li>
+                        <li>RAM: 4GB</li>
+                        <li>저장 용량: 64 GB</li>
+                        <li>운영체제: 안드로이드 6.0 (Marshmallow) → 7.0 (Nougat) → 8.0 (Oreo)</li>
+                    </ul>
+                </li>
+                <li id="galaxys8" class="list-group-item">
+                    Galaxy S8
+                    <button type="button" id="GalaxyS8" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS8.png" width="300">
+                        <li>모델: SM-G950N</li>
+                        <li>배터리: 내장형 Li-Ion 3000 mAh</li>
+                        <li>프로세서: 삼성 엑시노스 9 Series (8895)</li>
+                        <li>디스플레이: dual edge Sulier AMOLED 디스플레이, 5.8인치 대각선, 2960 x 1440 QuadHD+ 픽셀 해상도</li>
+                        <li>카메라: 전면 500만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: USB 3.1 Gen1 Tylie-C</li>
+                        <li>RAM: 4GB</li>
+                        <li>저장 용량: 64 GB</li>
+                        <li>운영체제: 안드로이드 7.0 (Nougat) → 8.0 (Oreo) → 9 (liie)</li>
+                    </ul>
+                </li>
+                <li id="galaxys8+" class="list-group-item">
+                    Galaxy S8 Plus
+                    <button type="button" id="GalaxyS8+" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS8+.png" width="300">
+                        <li>모델: SM-G955N</li>
+                        <li>배터리: 내장형 Li-Ion 3500 mAh</li>
+                        <li>프로세서: 삼성 엑시노스 9 Series (8895)</li>
+                        <li>디스플레이: dual edge Sulier AMOLED 디스플레이, 6.2인치 대각선, 2960 x 1440 QuadHD+ 픽셀 해상도</li>
+                        <li>카메라: 전면 800만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: USB 3.1 Gen1 Tylie-C</li>
+                        <li>RAM: 4GB</li>
+                        <li>저장 용량: 64 GB</li>
+                        <li>운영체제: 안드로이드 7.0 (Nougat) → 8.0 (Oreo) → 9 (liie)</li>
+                    </ul>
+                </li>
+                <li id="galaxys9" class="list-group-item">
+                    Galaxy S9
+                    <button type="button" id="GalaxyS9" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS9.png" width="300">
+                        <li>모델: SM-G960N</li>
+                        <li>배터리: 내장형 Li-Ion 3000 mAh</li>
+                        <li>프로세서: 삼성 엑시노스 9 Series (9810)</li>
+                        <li>디스플레이: dual edge Sulier AMOLED 디스플레이, 5.8인치 대각선, 2960 x 1440 QuadHD+ 픽셀 해상도</li>
+                        <li>카메라: 전면 800만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: USB 3.1 Gen1 Tylie-C</li>
+                        <li>RAM: 4GB</li>
+                        <li>저장 용량: 64 GB</li>
+                        <li>운영체제: 안드로이드 8.0 (Oreo) → 9 (liie) → 10</li>
+                    </ul>
+                </li>
+                <li id="galaxys9+" class="list-group-item">
+                    Galaxy S9 Plus
+                    <button type="button" id="GalaxyS9+" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS9+.png" width="300">
+                        <li>모델: SM-G965N</li>
+                        <li>배터리: 내장형 Li-Ion 3500 mAh</li>
+                        <li>프로세서: 삼성 엑시노스 9 Series (9810)</li>
+                        <li>디스플레이: dual edge Sulier AMOLED 디스플레이, 6.2인치 대각선, 2960 x 1440 QuadHD+ 픽셀 해상도</li>
+                        <li>카메라: 전면 800만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: USB 3.1 Gen1 Tylie-C</li>
+                        <li>RAM: 6GB</li>
+                        <li>저장 용량: 64, 256 GB</li>
+                        <li>운영체제: 안드로이드 8.0 (Oreo) → 9 (liie) → 10</li>
+                    </ul>
+                </li>
+                <li id="galaxys10e" class="list-group-item">
+                    Galaxy S10e
+                    <button type="button" id="GalaxyS10e" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS10e.png" width="300">
+                        <li>모델: SM-G970N</li>
+                        <li>배터리: 내장형 Li-Ion 3100 mAh</li>
+                        <li>프로세서: 삼성 엑시노스 9 Series (9820)</li>
+                        <li>디스플레이: Dynamic AMOLED 디스플레이, 5.8인치 대각선, 2280 x 1080 FHD+ 픽셀 해상도</li>
+                        <li>카메라: 전면 1000만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: USB 3.1 Gen1 Tylie-C</li>
+                        <li>RAM: 6GB</li>
+                        <li>저장 용량: 128 GB</li>
+                        <li>운영체제: 안드로이드 9 (liie) → 10 → 11</li>
+                    </ul>
+                </li>
+                <li id="galaxys10" class="list-group-item">
+                    Galaxy S10
+                    <button type="button" id="GalaxyS10" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS10.png" width="300">
+                        <li>모델: SM-G973N</li>
+                        <li>배터리: 내장형 Li-Ion 3400 mAh</li>
+                        <li>프로세서: 삼성 엑시노스 9 Series (9820)</li>
+                        <li>디스플레이: Dynamic AMOLED 디스플레이, 6.1인치 대각선, 3040 x 1440 Quad HD+ 픽셀 해상도</li>
+                        <li>카메라: 전면 1000만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: USB 3.1 Gen1 Tylie-C</li>
+                        <li>RAM: 8GB</li>
+                        <li>저장 용량: 128 GB</li>
+                        <li>운영체제: 안드로이드 9 (liie) → 10 → 11</li>
+                    </ul>
+                </li>
+                <li id="galaxys10+" class="list-group-item">
+                    Galaxy S10 Plus
+                    <button type="button" id="GalaxyS10+" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS10+.png" width="300">
+                        <li>모델: SM-G975N</li>
+                        <li>배터리: 내장형 Li-Ion 4100 mAh</li>
+                        <li>프로세서: 삼성 엑시노스 9 Series (9820)</li>
+                        <li>디스플레이: Dynamic AMOLED 디스플레이, 6.4인치 대각선, 3040 x 1440 Quad HD+ 픽셀 해상도</li>
+                        <li>카메라: 전면 1000만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: USB 3.1 Gen1 Tylie-C</li>
+                        <li>RAM: 8GB</li>
+                        <li>저장 용량: 512 GB</li>
+                        <li>운영체제: 안드로이드 9 (liie) → 10 → 11</li>
+                    </ul>
+                </li>
+                <li id="galaxys105g" class="list-group-item">
+                    Galaxy S10 5G
+                    <button type="button" id="GalaxyS105G" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS105G.png" width="300">
+                        <li>모델: SM-G977N</li>
+                        <li>배터리: 내장형 Li-Ion 4500 mAh</li>
+                        <li>프로세서: 삼성 엑시노스 9 Series (9820)</li>
+                        <li>디스플레이: Dynamic AMOLED 디스플레이, 6.7인치 대각선, 3040 x 1440 Quad HD+ 픽셀 해상도</li>
+                        <li>카메라: 전면 1000만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: USB 3.1 Gen1 Tylie-C</li>
+                        <li>RAM: 8GB</li>
+                        <li>저장 용량: 256 GB</li>
+                        <li>운영체제: 안드로이드 9 (liie) → 10 → 11</li>
+                    </ul>
+                </li>
+                <li id="galaxys20" class="list-group-item">
+                    Galaxy S20
+                    <button type="button" id="GalaxyS20" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS20.png" width="300">
+                        <li>모델: SM-G981N</li>
+                        <li>배터리: 내장형 Li-Ion 4000 mAh</li>
+                        <li>프로세서: 퀄컴 스냅드래곤 865</li>
+                        <li>디스플레이: Dynamic AMOLED 2X 디스플레이, 6.2인치 대각선, 3200 x 1440 Quad HD+ 픽셀 해상도</li>
+                        <li>카메라: 전면 1000만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: USB 3.2 Gen1 Type-C</li>
+                        <li>RAM: 12GB</li>
+                        <li>저장 용량: 128 GB</li>
+                        <li>운영체제: 안드로이드 10 → 11</li>
+                    </ul>
+                </li>
+                <li id="galaxys20+" class="list-group-item">
+                    Galaxy S20 Plus
+                    <button type="button" id="GalaxyS20+" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS20+.png" width="300">
+                        <li>모델: SM-G986N</li>
+                        <li>배터리: 내장형 Li-Ion 4500 mAh</li>
+                        <li>프로세서: 퀄컴 스냅드래곤 865</li>
+                        <li>디스플레이: Dynamic AMOLED 2X 디스플레이, 6.7인치 대각선, 3200 x 1440 Quad HD+ 픽셀 해상도</li>
+                        <li>카메라: 전면 1000만 화소, 후면 1,200만 화소</li>
+                        <li>충전 단자: USB 3.2 Gen1 Type-C</li>
+                        <li>RAM: 12GB</li>
+                        <li>저장 용량: 128 GB</li>
+                        <li>운영체제: 안드로이드 10 → 11</li>
+                    </ul>
+                </li>
+                <li id="galaxys20ultra" class="list-group-item">
+                    Galaxy S20 Ultra
+                    <button type="button" id="GalaxyS20Ultra" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS20Ultra.png" width="300">
+                        <li>모델: SM-G988N</li>
+                        <li>배터리: 내장형 Li-Ion 5000 mAh</li>
+                        <li>프로세서: 퀄컴 스냅드래곤 865</li>
+                        <li>디스플레이: Dynamic AMOLED 2X 디스플레이, 6.9인치 대각선, 3200 x 1440 Quad HD+ 픽셀 해상도</li>
+                        <li>카메라: 전면 4000만 화소, 후면 1억 800만 화소</li>
+                        <li>충전 단자: USB 3.2 Gen1 Tylie-C</li>
+                        <li>RAM: 12GB</li>
+                        <li>저장 용량: 256 GB</li>
+                        <li>운영체제: 안드로이드 10 → 11</li>
+                    </ul class="inside">
+                </li>
+                <li id="galaxys21" class="list-group-item">
+                    Galaxy S21
+                    <button type="button" id="GalaxyS21" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS21.png" width="300">
+                        <li>모델: SM-G991N</li>
+                        <li>배터리: 내장형 Li-Ion 4000 mAh</li>
+                        <li>프로세서: 삼성 엑시노스 10 Series (2100)</li>
+                        <li>디스플레이: Dynamic AMOLED 2X 디스플레이, 6.2인치 대각선, 2400 x 1080 FHD+ 픽셀 해상도</li>
+                        <li>카메라: 전면 1000만 화소, 후면 1200만 화소</li>
+                        <li>충전 단자: USB 3.2 Gen1 Tylie-C</li>
+                        <li>RAM: 8GB</li>
+                        <li>저장 용량: 256 GB</li>
+                        <li>운영체제: 안드로이드 11</li>
+                    </ul>
+                </li>
+                <li id="galaxys21+" class="list-group-item">
+                    Galaxy S21 Plus
+                    <button type="button" id="GalaxyS21+" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS21+.png" width="300">
+                        <li>모델: SM-G996N</li>
+                        <li>배터리: 내장형 Li-Ion 4800 mAh</li>
+                        <li>프로세서: 삼성 엑시노스 10 Series (2100)</li>
+                        <li>디스플레이: Dynamic AMOLED 2X 디스플레이, 6.7인치 대각선, 2400 x 1080 FHD+ 픽셀 해상도</li>
+                        <li>카메라: 전면 1000만 화소, 후면 1200만 화소</li>
+                        <li>충전 단자: USB 3.2 Gen1 Tylie-C</li>
+                        <li>RAM: 8GB</li>
+                        <li>저장 용량: 256 GB</li>
+                        <li>운영체제: 안드로이드 11</li>
+                    </ul>
+                </li>
+                <li id="galaxys21ultra" class="list-group-item">
+                    Galaxy S21 Ultra
+                    <button type="button" id="GalaxyS21Ultra" class="btn btn-primary ms-3 text-nowrap" onClick="get_id(this.id)"><i class="bi bi-plus"></i>Add</button>
+                    <ul class="inside">
+                        <img src="./Galaxy/GalaxyS21Ultra.png" width="300">
+                        <li>모델: SM-G998N</li>
+                        <li>배터리: 내장형 Li-Ion 5000 mAh</li>
+                        <li>프로세서: 삼성 엑시노스 10 Series (2100)</li>
+                        <li>디스플레이: Dynamic AMOLED 2X 디스플레이, 6.7인치 대각선, 3200 x 1440 Quad HD+ 픽셀 해상도</li>
+                        <li>카메라: 전면 4000만 화소, 후면 1억 800만 화소</li>
+                        <li>충전 단자: USB 3.2 Gen1 Tylie-C</li>
+                        <li>RAM: 12GB</li>
+                        <li>저장 용량: 256 GB</li>
+                        <li>운영체제: 안드로이드 11</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+		crossorigin="anonymous"></script>
+
+        <script>
+            let favorites = [];
+
+            function addToList(favorite) {
+
+			    let div = document.createElement("div");
+			    div.className = "fav bg-light p-1 rounded-2 ps-2 d-flex align-items-center";
+			    let span = document.createElement("span");
+			    span.className = "me-auto";
+			    span.textContent = favorite;
+			    div.appendChild(span);
+
+                let buttonRemove = document.createElement("button");
+		        buttonRemove.className = "btn btn-sm btn-danger";
+		        buttonRemove.innerHTML = '<i class="bi bi-x"></i>';
+		        div.appendChild(buttonRemove);
+
+                buttonRemove.addEventListener("click", () => {
+				    div.remove();
+				    favorites = favorites.filter(f => f !== favorite);
+		        });
+
+                let list = document.querySelector("#fav-list");
+		        list.appendChild(div);
+		    }
+
+            let get_id = function(clicked_id) {
+                clicked_id;
+                if(!favorites.includes(clicked_id)) {
+                    favorites.push(clicked_id);
+                    addToList(clicked_id);
+                }
+            }
+        </script>
     </body>
 </html>
