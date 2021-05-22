@@ -3,14 +3,16 @@
 header{height: 75px; background-color: #676fe9; border: 1px solid #253342; position: fixed; width: 100%; z-index: 9999; top: 0; left: 0;}
 h1{color: white; line-height: 75px; float: left;}
 h2{color: white;}
-li{list-style: none;}
+#toast {position: fixed; left:50%; padding: 15px 20px; border-radius: 30px; visibility: hidden; background-color: antiquewhite;}
+#toast.reveal {opacity: 1; visibility: visible;}
 .menu{float: right;}
 .menu a{line-height: 75px; color: white; padding: 0 15px; display: block;}
 .menu li{float: left;}
 
 body{background-color: #676fe9;}
 img{display: block; margin-left: auto; margin-right: auto; margin-top: 200px;}
-input{font-size: 16px; width: 325px; padding: 10px; border: 0px; outline: none; margin-top: 100px;}
-button{width: 70px; height: 40px; border: 0px; background: #3b353d; outline: none; color: #ffffff; margin-top: 100px;}  
-.outer{text-align: center;}
+input{font-size: 16px; width: 325px; padding: 10px; border: 0px; outline: none;}
+button{width: 70px; height: 40px; border: 0px; background: #3b353d; outline: none; color: #ffffff;}  
+.outer{text-align: center; margin-top: 100px;}
 .inner{display: inline-block;}
+.outer2{text-align: center; margin-top: 20px;}
